@@ -39,6 +39,13 @@ body {
     color: white;
 }
 
+#reset-button:focus {
+    background-color: #f0024a;
+    color: white;
+    outline: 3px #e9e92a solid;
+    outline-offset: 2px;
+}
+
 .choices {
     display: flex;
 
