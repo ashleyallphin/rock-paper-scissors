@@ -54,11 +54,12 @@ body {
 .choice-card {
     border: 1px solid #f0024a;
     margin: 20px;
+    flex: 1;
 }
 
 .choice-card img {
     padding: 40px;
-    max-width: 80%;
+
 }
 
 .card-body {
@@ -162,9 +163,6 @@ display: flex;
 .game-record {
     border: 1px solid #311844;
     margin: 0 auto 0 auto;
-
-
-
 }
 
 footer {
