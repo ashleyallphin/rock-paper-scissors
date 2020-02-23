@@ -1,0 +1,165 @@
+/*
+
+font-family: 'Nanum Gothic'
+
+pink    #f0024a
+green   #e9e92a
+blue    #bffcfc
+purple  #311844
+gray    #F8F9FA
+
+*/
+
+
+body {
+    background-color: #e9e92a;
+    font-family: 'Nanum Gothic';
+}
+
+.navbar {
+    padding: 20px;
+    border-bottom: 1px solid #f0024a;
+
+}
+
+.container {
+    padding: 0;
+}
+
+#reset-button {
+    border: 1px solid #f0024a;
+    border-radius: 5px;
+    color: #311844;
+    padding: 10px;
+}
+
+#reset-button:hover {
+    background-color: #f0024a;
+    color: white;
+}
+
+.choices {
+    display: flex;
+
+
+}
+
+.game-choice {
+    width: 50%;
+    border: 1px solid #f0024a;
+}
+
+.game-choice img {
+    max-width: 80%;
+    
+}
+
+.card-body {
+    background-color: #f0024a;
+    margin: 0px;
+    
+
+}
+
+.col-4 {
+    padding: 0;
+    margin: 0;
+}
+
+.col-6 {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.card {
+    background-color: #F8F9FA;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    color: #311844;
+    margin: 20px;
+}
+
+h2 {
+    color: #311844;
+
+}
+
+h4 {
+    display: inline;
+    color: #311844;
+    font-weight: 800;
+    border: 1px solid #311844;
+    padding: 3px 7px 3px 7px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+h5 {
+    color: #fff;
+    font-weight: 800;
+}
+
+h6  {
+    color: #311844;
+}
+
+p {
+    color: #fff;
+}
+
+#instructions {
+    background-color: #F8F9FA;
+    margin: 40px auto 40px auto;
+    color: #311844;
+    border: none;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #f0024a;
+
+}
+
+.card-header {
+    border-bottom: none;
+    background-color: #F8F9FA;
+
+}
+
+#computer-choice-html {
+    margin-right: 20px;
+    
+}
+
+#player-choice-html {
+    margin-left: 20px;
+}
+
+
+.game-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-counter {
+    display: flex;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-record {
+    border: 1px solid #f0024a;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #F8F9FA;
+    padding: 30px;
+    border-top: 1px solid #f0024a;
+
+}
