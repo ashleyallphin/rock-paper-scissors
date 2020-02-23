@@ -41,7 +41,6 @@ body {
 .choices {
     display: flex;
 
-
 }
 
 .game-choice {
@@ -50,8 +49,8 @@ body {
 }
 
 .game-choice img {
+    padding: 40px;
     max-width: 80%;
-    
 }
 
 .card-body {
@@ -64,6 +63,7 @@ body {
 .col-4 {
     padding: 0;
     margin: 0;
+
 }
 
 .col-6 {
@@ -75,8 +75,7 @@ body {
 
 .card {
     background-color: #F8F9FA;
-    margin-left: auto;
-    margin-right: auto;
+
 
 }
 
@@ -131,30 +130,20 @@ p {
 }
 
 #computer-choice-html {
-    margin-right: 20px;
-    
 }
 
 #player-choice-html {
-    margin-left: 20px;
 }
 
 
-.game-content {
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .game-counter {
-    display: flex;
-    padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .game-record {
     border: 1px solid #f0024a;
-    margin-top: 20px;
 }
 
 footer {
