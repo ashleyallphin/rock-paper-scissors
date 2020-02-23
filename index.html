@@ -35,6 +35,12 @@
         </button>
     </nav>
 
+    <!-- container for the game and wins/losses/ties counter  -->
+<div class="container whole-game">
+
+<div class="container"> 
+
+    <!-- instructions container -->
     <div id="container">
         <div id="row">
             <div class="card text-center" id="instructions">
@@ -46,76 +52,90 @@
             </div>
         </div>
     </div>
+    <!-- end of instructions container -->
 
-    <!-- Gameplay section (game-content) -->
-    <div class="container">
-        <div class="game-content">
+
+    <!-- Gameplay section named game-content -->
+        
+        <div class="container game-content">
 
 
             <div class="container choices text-center">
 
                 <!-- computer choice card -->
-                <div class="card mb-3 game-choice col-6" id="computer-choice-html">
+                <div class="card mb-3 choice-card" id="computer-choice-html">
                     <div id="choice-image-computer"><img class="responsive" src="assets/images/RPS.svg"
                             style="height: 250px;" class="card-img-top" alt="rock" /></div>
                     <div class="card-body">
                         <h5 class="card-title">Computer Choice</h5>
                         <p class="card-text">
-                            Computer chose <span id="computer-choice-text"></span> .
+                            <span id="computer-choice-text"></span>
                         </p>
                     </div>
                 </div>
 
 
                 <!-- player choice card -->
-                <div class="card mb-3 game-choice col-6" id="player-choice-html">
+                <div class="card mb-3 choice-card" id="player-choice-html">
                     <div id="choice-image-player"><img class="responsive" src="assets/images/RPS.svg"
                             style="height: 250px;" class="card-img-top" alt="scissors" /></div>
                     <div class="card-body">
                         <h5 class="card-title">Player Choice</h5>
                         <p class="card-text">
-                            You chose <span id="computer-choice-text"></span>.
+                             <span id="computer-choice-text"></span>
                         </p>
                     </div>
                 </div>
-                </div>
+
             </div>
+
+        </div>
+
+        <!-- end of container game-content -->
 
 
             <!-- Game counter section, made of 3 x game-record-->
-
-
-
-            <div class="container game-counter">
+            <div class="container game-counters">
 
                 <!-- row of game-records -->
-                <div class="row">
 
                     <!-- wins card -->
-                    <div class="card mb-3 game-record col-4 text-center">
-                    <span id="win-html"><h1>00</h1></span>
+                    <div class="counter-card container">
+                    <div class="card game-record text-center">
+                    <h1><span id="win-count-html">00</span></h1>
 
                         <div class="card-body">
                             <h5 class="card-title  text-center">Wins</h5>
                         </div>
-
+                    </div>
                     </div>
 
                     <!-- losses card -->
-                    <div class="card mb-3 game-record col-4 text-center">
-                        <span id="win-html"><h1>00</h1></span>
+                    <div class="counter-card container">
+
+                    <div class="card game-record text-center">
+                        <h1><span id="loss-count-html"><span>00</span></h1>
                         <div class="card-body">
                             <h5 class="card-title  text-center">Losses</h5>
                         </div>
                     </div>
+                    </div>
 
                     <!-- ties card -->
-                    <div class="card mb-3 game-record col-4 text-center">
-                        <span id="tie-html"><h1>00</h1></span>
+                    <div class="counter-card container">
+
+                    <div class="card game-record text-center">
+                        <h1><span id="tie-count-html">00</span></h1>
                         <div class="card-body">
                             <h5 class="card-title  text-center">Ties</h5>
                         </div>
                     </div>
+                    </div>
+
+<!--end row of counters-->
+
+            </div> <!-- end game-counter section -->
+</div>
 
 </div>
 
@@ -123,26 +143,15 @@
 
 
 
-                    
-                
-            </div>
-
-            </div>
 
 
+    <footer>
 
-
-
+        <div class="text-center">
+            <h6>Copyright 2020</h6>
         </div>
 
-
-        <footer>
-
-            <div class="text-center">
-                <h6>Copyright 2020</h6>
-            </div>
-
-        </footer>
+    </footer>
 
 
 
@@ -152,20 +161,20 @@
 
 
 
-        <!-- Bootstrap javaScript -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
+    <!-- Bootstrap javaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 
-        <!-- My javaScript -->
-        <script src="assets/javascript/game.js"></script>
+    <!-- My javaScript -->
+    <script src="assets/javascript/game.js"></script>
 
 </body>
 

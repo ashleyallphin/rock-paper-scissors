@@ -24,6 +24,7 @@ body {
 
 .container {
     padding: 0;
+    margin: 0 auto 0 auto;
 }
 
 #reset-button {
@@ -43,12 +44,12 @@ body {
 
 }
 
-.game-choice {
-    width: 50%;
+.choice-card {
     border: 1px solid #f0024a;
+    margin: 20px;
 }
 
-.game-choice img {
+.choice-card img {
     padding: 40px;
     max-width: 80%;
 }
@@ -62,7 +63,6 @@ body {
 
 .col-4 {
     padding: 0;
-    margin: 0;
 
 }
 
@@ -138,14 +138,15 @@ p {
 
 
 
-.game-counter {
-    width: 80%;
-
+.container .game-counters {
+display: flex;
 }
 
 .game-record {
     border: 1px solid #f0024a;
-    margin-top: 30px;
+    margin: 0 auto 0 auto;
+
+
 
 }
 
@@ -155,5 +156,10 @@ footer {
     border-top: 1px solid #f0024a;
     margin-top: 30px;
 
+
+}
+
+.counter-card { 
+margin: 20px;
 
 }
