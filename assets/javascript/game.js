@@ -80,9 +80,7 @@ window.onload = function() {
         }
         
 
-        //show plays in img
-
-        // if computer plays rock, show rock image
+        //show images of game choices
         if (computerChoice === "r") {
             document.getElementById("choice-image-computer").src = "assets/images/rock.svg";
         } else if (computerChoice === "p") {
@@ -106,7 +104,24 @@ window.onload = function() {
 
     }
 
+    //reset game
+    document.getElementById("reset-button").addEventListener("click", function(){
+        
+        //set counters back to 0
+        winCount = 0;
+        lossCount = 0;
+        tieCount = 0;
+
+        //show 0 values in DOM
+        document.getElementById("win-count-html").innerHTML = winCount;
+        document.getElementById("loss-count-html").innerHTML = lossCount;
+        document.getElementById("tie-count-html").innerHTML = tieCount;
+
+      });
+
 }
+
+
 
 
 
