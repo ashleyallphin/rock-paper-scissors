@@ -139,16 +139,21 @@ p {
 
 
 .game-counter {
+    width: 80%;
 
 }
 
 .game-record {
     border: 1px solid #f0024a;
+    margin-top: 30px;
+
 }
 
 footer {
     background-color: #F8F9FA;
     padding: 30px;
     border-top: 1px solid #f0024a;
+    margin-top: 30px;
+
 
 }
