@@ -61,6 +61,12 @@ body {
 
 }
 
+.card-body-counter {
+    background-color: #311844;
+    margin: 0px;
+    
+
+}
 .col-4 {
     padding: 0;
 
@@ -112,14 +118,18 @@ p {
     color: #fff;
 }
 
+.instructions-container {
+    padding: 20px;
+}
+
 #instructions {
     background-color: #F8F9FA;
-    margin: 40px auto 40px auto;
+    margin: 40px auto 0px auto;
     color: #311844;
     border: none;
-    width: 80%;
+    width: 100%;
     padding: 20px;
-    border: 1px solid #f0024a;
+    border: 1px solid #311844;
 
 }
 
@@ -143,7 +153,7 @@ display: flex;
 }
 
 .game-record {
-    border: 1px solid #f0024a;
+    border: 1px solid #311844;
     margin: 0 auto 0 auto;
 
 
