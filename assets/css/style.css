@@ -142,20 +142,33 @@ p {
 
 }
 
+#instructions-mobile {
+    background-color: #F8F9FA;
+    margin: 40px auto 0px auto;
+    color: #311844;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #311844;
+    line-height: 300%;
+
+}
+
+#instructions-mobile h4 {
+    font-size: 20px;
+
+}
+
+#instructions-mobile {
+    display: none;
+
+}
+
 .card-header {
     border-bottom: none;
     background-color: #F8F9FA;
 
 }
-
-#computer-choice-html {
-}
-
-#player-choice-html {
-}
-
-
-
 
 .container .game-counters {
 display: flex;
@@ -179,3 +192,20 @@ footer {
 margin: 20px;
 
 }
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+
+   #instructions {
+       display: none;
+   }
+
+   #instructions-mobile {
+       display: block;
+   }
+
+  }

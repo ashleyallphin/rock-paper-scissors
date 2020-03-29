@@ -16,6 +16,9 @@ var winCount = 0;
 var lossCount = 0;
 var tieCount = 0;
 
+$("#rock-key").on("click", function() {
+
+});
 
 
 
@@ -31,14 +34,13 @@ window.onload = function() {
         var playerChoice = String.fromCharCode(event.keyCode).toLowerCase();
 
         //testing
-        console.log(playerChoice);
+        console.log(String.fromCharCode(event.keyCode).toLowerCase());
 
 
         //computer makes its choice
         var computerChoice = choices[Math.floor(Math.random()*choices.length)];
 
         //testing
-        console.log(computerChoice);
 
         if (playerChoice === "r" || playerChoice === "p" || playerChoice === "s") {
         
